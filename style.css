@@ -1,0 +1,277 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h3{
+    font-size: 28px;
+}
+button{
+    width: 150px;
+    height: 40px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    height: 100px;
+    line-height: 100px;
+}
+.nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 40px;
+}
+ul li a{
+    text-decoration: none;
+}
+.header_2{
+    background: black;
+    width: 96%;
+    height: 600px;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header_2 h2{
+    font-size: 50px;
+    padding: 20px;
+}
+.header_2 button{
+    margin-top: 20px;
+}
+.section_1{
+    width: 40%;
+    margin: 20px auto;
+}
+.section_1 .para1{
+    text-align: center;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+}
+.section_1 .para2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+.line{
+    width: 80%;
+    height: 2px;
+    background: orangered;
+    margin: 30px auto;
+}
+.section_2{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+}
+.section_2 .left{
+    width: 50%;
+    margin-top: 5%;
+}
+.left p{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 20px 0;
+}
+.left h1{
+    margin-bottom: 20px;
+}
+.section_2 .para{
+    letter-spacing: 3px;
+    font-size: 16px;
+    line-height: 30px;
+}
+.section_2 img{
+    width: 100%;
+    padding: 20px;
+}
+.section_2 button{
+    background: black;
+    color: white;
+}
+.section_3{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+}
+.section_3 .sec3_left{
+    width: 100%;
+       
+}
+.sec3_left p{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 20px 0;
+}
+.sec3_left h1{
+    margin-bottom: 20px;
+}
+.section_3 .para{
+    letter-spacing: 3px;
+    font-size: 16px;
+    line-height: 30px;
+}
+.section_3 img{
+    width: 65%;  
+    margin-left: 25%;  
+}
+/* ==============section4================== */
+.section4{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.section4 .big_para {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+.section4 h6,h1{
+    margin-bottom: 40px;
+}
+.section4 .big_para h1{
+    margin-bottom: 15px;
+}
+.section4 .big_para p{
+ color: rgba(0, 0, 0, 0.5);
+}
+.big_para .Bpara1{
+    width: 20%;
+    line-height: 30px;
+}
+.last_section{
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    padding: 5%;
+    background: wheat;
+}
+.last_section button{
+    margin-top: 20px;
+    color: white;
+    background: black;
+}
+footer{
+    width: 90%;
+    margin: 5% auto;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5); 
+}
+/* ======================about=================== */
+.about_sec1{
+    width: 70%;
+    margin: 50px auto;
+    color: rgba(0, 0, 0, 0.5);
+    line-height: 30px;
+    font-size: 21px;
+    text-align: center;
+}
+.about_sec2{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.about_sec2 .group{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+}
+.about_sec2 h2{
+    margin-bottom: 20px;
+}
+.abt-img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.about_sec2 p{
+    color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 20px;
+    line-height: 30px;
+}
+.about_sec2 .group .group1{
+    width: 30%;
+    margin: 20px;
+}
+.work,.team{
+    width: 80%;
+    margin: 50px auto;
+}
+.work_para1 , .team_para1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.work_para2, .team_para2{
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 30px;
+    font-weight: 800;
+}
+.work img{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.bigteam{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    row-gap: 30px;
+    
+}
+.team_sec1 img{
+    width: 100%;
+    
+}
+.team_sec1{
+    width: 30%;
+    height: 450px;
+    text-align: center;
+}
+.blog_sec{
+    width: 80%;
+    text-align: center;
+    margin: 30px auto;
+}
+.blog_sec img{
+    width: 100%;
+}
+.blog_sec h2,p{
+    margin: 20px;
+}
+
+.contact{
+    margin-top: 100px;
+    display: flex;
+
+}
+.right_form{
+    margin: 20px;
+    border: 1px solid red;
+    flex-basis: 90%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.left{
+    flex-basis: 40%;
+    margin: 20px;
+}
+.contact label{
+    margin: 10px;
+}
+.contact button{
+    width: 100%;
+    margin: 10px 0;
+}
